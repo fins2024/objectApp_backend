@@ -1,18 +1,9 @@
-# FastAPI and server
 fastapi>=0.68.0
 uvicorn[standard]>=0.15.0
-
-# Object detection
 ultralytics>=8.0.0
-
-# PyTorch CPU-only
-torch>=2.2.0+cpu
-torchvision>=0.15.2+cpu
-
-# Numerical and image processing
+torch==2.2.0
+torchvision==0.15.2
 numpy>=1.21.0
 Pillow>=8.0.0
 opencv-python-headless>=4.5.0
-
-# For file uploads in FastAPI
 python-multipart>=0.0.5
